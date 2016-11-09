@@ -25,7 +25,7 @@ angular.module('mm.core.settings')
             $mmLocalNotifications, mmCoreConfigConstants) {
 
     $scope.versionname = mmCoreConfigConstants.versionname;
-    $scope.appname = "UET LMS"//mmCoreConfigConstants.appname;
+    $scope.appname = 'UET LMS'//mmCoreConfigConstants.appname;
     $scope.versioncode = mmCoreConfigConstants.versioncode;
 
     $scope.navigator = $window.navigator;

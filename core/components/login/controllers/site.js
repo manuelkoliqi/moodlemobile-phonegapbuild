@@ -24,8 +24,9 @@ angular.module('mm.core.login')
 .controller('mmLoginSiteCtrl', function($scope, $state, $mmSitesManager, $mmUtil, $ionicHistory, $mmApp, $ionicModal, $ionicPopup,
         $mmLoginHelper, $q) {
 
-    $scope.siteurl = 'lms.uet.edu.al';
-
+    $scope.siteurl = '';
+    $scope.siteaddress = 'lms.uet.edu.al';
+        
     $scope.connect = function(url) {
 
         $mmApp.closeKeyboard();

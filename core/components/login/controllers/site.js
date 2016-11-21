@@ -25,6 +25,8 @@ angular.module('mm.core.login')
         $mmLoginHelper, $q) {
 
     $scope.siteurl = '';
+        $scope.siteurl = "lms.uet.edu.al";
+        $scope.siteurl = 'lms.uet.edu.al';
     $scope.siteaddress = 'lms.uet.edu.al';
         
     $scope.connect = function(url) {

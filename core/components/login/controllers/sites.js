@@ -80,7 +80,7 @@ angular.module('mm.core.login')
     };
 
     $scope.add = function() {
-        $mmLoginHelper.goToAddSite();
+        //$mmLoginHelper.goToAddSite();
     };
 
 });
